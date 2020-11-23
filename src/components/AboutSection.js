@@ -23,7 +23,7 @@ const AboutSection = () => {
                 <button>Contact us</button>
             </div>
             <div className="image">
-                <img src={home1} alt="Home About us photo with amage of owner"/>
+                <img src={home1} alt="Owner of Capture"/>
             </div>
         </div>
     );
