@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
 }
 body{
     background-color: #1b1b1b;
+    font-family: 'Inter', sans-serif;
 }
 button{
     font-size: 1.1rem;
@@ -18,12 +19,15 @@ button{
     background: transparent;
     color: white;
     transition: all 0.5s ease;
+    font-family: inherit;
 
     &:hover{
         background-color: #23d997;
         color: white;
     }
 }
+
+/* font-family: 'Oleo Script', cursive; */
 
 h2{
     font-weight: lighter;
@@ -34,6 +38,7 @@ h3{
 }
 h4{
     font-weight: bold;
+    font-size: 1.4rem;
 }
 a{
     font-size: 1.1rem;
@@ -45,7 +50,7 @@ span{
 p{
     padding: 3rem 0rem;
     color: #ccc;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 150%;
 }
 
