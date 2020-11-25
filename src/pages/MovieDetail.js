@@ -4,6 +4,7 @@ import {useHistory} from 'react-router-dom';
 import {MovieState} from '../MovieState';
 import { motion } from 'framer-motion';
 import {pageAnimation} from '../animation';
+import ScrollTop from '../components/ScrollTop';
  
 
 const MovieDetail = () => {
@@ -39,6 +40,7 @@ const MovieDetail = () => {
                 </ImageDisplay>
             </Details>
             )}
+            <ScrollTop/>
         </motion.div>
     );
 }

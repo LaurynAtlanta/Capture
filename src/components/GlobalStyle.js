@@ -17,6 +17,7 @@ html{
 body{
     background-color: #1b1b1b;
     font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
 }
 button{
     font-size: 1.1rem;
