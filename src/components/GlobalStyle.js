@@ -7,6 +7,13 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing:border-box;
 }
+html{
+    @media (max-width: 1327px){
+        font-size: 70%;
+    }
+
+
+}
 body{
     background-color: #1b1b1b;
     font-family: 'Inter', sans-serif;
@@ -31,7 +38,7 @@ button{
 
 h2{
     font-weight: lighter;
-    font-size: 3rem;
+    font-size: 2.75rem;
 }
 h3{
     color: white;

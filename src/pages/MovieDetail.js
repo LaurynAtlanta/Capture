@@ -68,6 +68,11 @@ const Awards = styled.div`
     margin: 5rem 10rem;
     align-items:center;
     justify-content: space-around;
+
+    @media (max-width: 950px){
+        display: block;
+        margin: 2rem;
+    }
 `
 
 const StyledAward = styled.div` //gets put in award component below
@@ -92,6 +97,9 @@ const ImageDisplay = styled.div`
         width: 100%;
         height: 100vh;
         object-fit: cover;
+        @media (max-width: 950px){
+            height: 50vh;
+        }
     }
 
 `

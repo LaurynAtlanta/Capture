@@ -41,11 +41,34 @@ const StyledNav= styled.nav`
         color: white;
         text-decoration: none;
         font-size: 0.85rem;
+        @media (max-width: 1327px){
+        font-size: 1.25rem;
+    }
     }
     #logo{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         font-family: 'Oleo Script', cursive;
         font-weight: lighter;
+        @media (max-width: 1200px){
+        font-size: 2.2rem;
+    }
+    }
+    @media (max-width: 955px){
+        flex-direction: column;
+        padding: 2rem 0rem;
+        #logo{
+            display: inline-block;
+            margin-bottom: 1rem;
+            font-size: 2.3rem;
+        }
+        ul{
+            padding:1.2rem;
+            justify-content: space-around;
+            width: 100%;
+        }
+        li{
+            padding: 0;
+        }
     }
 `
  
